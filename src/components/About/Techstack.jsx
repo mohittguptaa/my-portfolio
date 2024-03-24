@@ -16,21 +16,28 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+        <h6>C++</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <h6>Javascript</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+        <h6>React.js</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <h6>Node.js</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="70"
-          height="70"
+          width="65"
+          height="65"
           viewBox="0 0 16 16"
         >
           <polygon
@@ -42,24 +49,26 @@ function Techstack() {
             d="M6.81,10c-0.005,0.013-0.006,0.027-0.011,0.039C6.354,11.212,5.229,12,3.967,12	C2.331,12,1,10.638,1,8.964V8h4.439v0H8V7H7.997c-0.019-2.208-1.788-4-4.03-4C1.779,3,0,4.811,0,7.036v1.929C0,11.19,1.779,13,4,13	c1.644,0,3.144-1.048,3.734-2.607C7.783,10.265,7.81,10.131,7.845,10H6.81z M4.033,4c1.624,0,2.944,1.343,2.963,3H1.003	C1.022,5.343,2.343,4,4.033,4z"
           ></path>
         </svg>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <h6>Express.js</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <h6>MongoDB</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <h6>Git</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        <h6>Firebase</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <h6>Python</h6>
       </Col>
     </Row>
   );
