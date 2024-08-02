@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photoimg from "../../Assets/mohit.jpg"
+import photoimg from "../../Assets/image.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -23,7 +20,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple">  Javascript and Python. </b>
+                <b className="purple"> Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -49,7 +46,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={photoimg} className="img-fluid" alt="avatar" style={{ borderRadius:"50%" }} />
+              <img
+                src={photoimg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ borderRadius: "50%" }}
+              />
             </Tilt>
           </Col>
         </Row>

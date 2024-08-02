@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import techmyte from "../../Assets/Projects/techmyte.png";
+import techmyte from "../../Assets/Projects/zeecare.png";
 import mistore from "../../Assets/Projects/mistore.png";
 import cryptox from "../../Assets/Projects/cryptox.png";
 
@@ -33,8 +33,8 @@ function Projects() {
             <ProjectCard
               imgPath={techmyte}
               isBlog={false}
-              title="TechMyte"
-              description="Our project is a stunningly designed landing page, meticulously crafted to captivate audiences with its beauty. It boasts seamless responsiveness across all devices, ensuring an immersive experience for users on desktops, tablets, and mobile phones. Welcome to a world where aesthetics meet functionality effortlessly."
+              title="ZEECARE HOSPITAL"
+              description="This project is a comprehensive full-stack Hospital Management System built on the MERN (MongoDB, Express.js, React, Node.js) stack. It streamlines administrative and medical operations, ensuring efficient patient management, appointment scheduling, and record-keeping, ultimately enhancing healthcare delivery."
               ghLink="https://github.com/mohittguptaa/techmyte.git"
               demoLink="https://techmyte.vercel.app"
             />
@@ -43,8 +43,8 @@ function Projects() {
             <ProjectCard
               imgPath={cryptox}
               isBlog={false}
-              title="TechMyte"
-              description="Our crypto app revolutionizes the way users engage with digital currencies. Offering real-time exchange rates and dynamic graphs for all coins, it provides comprehensive insights at your fingertips. With seamless responsiveness across devices, stay informed and make informed decisions in the fast-paced world of cryptocurrency trading."
+              title="CRYPTO X"
+              description="crypto app revolutionizes the way users engage with digital currencies. Offering real-time exchange rates and dynamic graphs for all coins, it provides comprehensive insights at your fingertips. With seamless responsiveness across devices, stay informed and make informed decisions in the fast-paced world of cryptocurrency trading."
               ghLink="https://github.com/mohittguptaa/cryptox"
               demoLink="https://cryptox-india.vercel.app"
             />
