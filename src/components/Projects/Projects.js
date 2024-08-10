@@ -35,8 +35,8 @@ function Projects() {
               isBlog={false}
               title="ZEECARE HOSPITAL"
               description="This project is a comprehensive full-stack Hospital Management System built on the MERN (MongoDB, Express.js, React, Node.js) stack. It streamlines administrative and medical operations, ensuring efficient patient management, appointment scheduling, and record-keeping, ultimately enhancing healthcare delivery."
-              ghLink="https://github.com/mohittguptaa/techmyte.git"
-              demoLink="https://techmyte.vercel.app"
+              ghLink="https://github.com/mohittguptaa/Hospital_MAnagement_System.git"
+              demoLink="https://zeecaree.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
