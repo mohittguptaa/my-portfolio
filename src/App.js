@@ -48,3 +48,5 @@ function App() {
 }
 
 export default App;
+
+// <Navigate to="/"/>
