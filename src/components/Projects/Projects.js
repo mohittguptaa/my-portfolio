@@ -48,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Cosmos Ai - A Real Time saterllite Tracking App "
               description="Cosmos AI is a real-time satellite tracking app that visualizes satellite positions using interactive maps, delivering accurate, live orbital data with an intuitive and user-friendly interface."
-              ghLink=""
+              ghLink="https://github.com/mohittguptaa/COSMOS-AI"
               demoLink=""
             />
           </Col>
